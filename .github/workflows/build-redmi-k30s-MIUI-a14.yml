@@ -15,10 +15,10 @@ env:
   KERNEL_SOURCE : "https://github.com/liyafe1997/kernel_xiaomi_sm8250_mod.git"
   KERNEL_BRANCH : "android15-lineage22-mod"
 
-  CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/10.0.1-20220724-release/Clang-10.0.1-20220724.tar.gz"
+  CLANG_SOURCE : "https://github.com/ZyCromerZ/Clang/releases/download/15.0.7-20251111-release/Clang-15.0.7-20251111.tar.gz"
   CLANG_BRANCH : ""
 
-  GCC_GNU : false
+  GCC_GNU : true
   GCC_64_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.git"
   GCC_64_BRANCH : "android12L-release"
   GCC_32_SOURCE : "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9.git"
